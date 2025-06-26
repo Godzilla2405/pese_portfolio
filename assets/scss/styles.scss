@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PESE Portfolio - Employability Skills</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <a href="#" class="nav__logo">PESE Portfolio</a>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#sessions" class="nav__link">Sessions</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#videos" class="nav__link">Interviews</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#reflection" class="nav__link">Reflection</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="bd-grid">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Practical Employability<br />
+                    <span class="home__title-color">Skill Enhancement</span>
+                </h1>
+                <p
+                    style="
+                        font-size: 1.2rem;
+                        margin-top: 1.5rem;
+                        max-width: 600px;
+                    "
+                >
+                    A comprehensive portfolio showcasing my journey through
+                    the PESE course by Dr. Anubha Pundir, highlighting key
+                    learnings, skill development, and practical
+                    applications.
+                </p>
+
+                <div class="home__social">
+                    <a href="#" class="home__social-icon"
+                        ><i class="bx bxs-time"></i
+                    ></a>
+                    <a href="#" class="home__social-icon"
+                        ><i class="bx bxs-graduation"></i
+                    ></a>
+                    <a href="#" class="home__social-icon"
+                        ><i class="bx bxs-group"></i
+                    ></a>
+                </div>
+
+                <div class="button-container">
+                    <a href="#sessions" class="button">Explore Sessions</a>
+                    <a href="#videos" class="button button-outline"
+                        >View Interviews</a
+                    >
+                </div>
+            </div>
+
+            <div class="home__img">
+                <svg
+                    class="home__blob"
+                    viewBox="0 0 479 467"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+                        />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+                        />
+                        <!-- Updated profile photo path -->
+                        <image
+                            class="home__blob-img"
+                            x="50"
+                            y="60"
+                            width="380"
+                            href="assets/img/profile_photo.jpg"
+                        />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessions Section -->
+    <section class="section" id="sessions">
+        <div class="bd-grid">
+            <h2 class="section-title">PESE Sessions</h2>
+            <p
+                style="
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto 2rem;
+                    line-height: 1.7;
+                "
+            >
+                Detailed overview of key sessions conducted by Dr. Anubha
+                Pundir, highlighting the core concepts, activities, and
+                learnings from each session.
+            </p>
+
+            <div class="session-container">
+                <!-- Session 1 -->
+                <div class="session-card">
+                    <div class="session-header">
+                        <h3 class="session-title">
+                            Time Management & Goal Setting
+                        </h3>
+                        <div class="session-date">13th Feb. 2025</div>
+                    </div>
+                    <div class="session-content">
+                        <ul class="session-points">
+                            <li>
+                                "Time will manage us if we don't manage
+                                time"
+                            </li>
+                            <li>
+                                Analyzed time spent on lectures, friends,
+                                sleeping
+                            </li>
+                            <li>
+                                Reflected on role models and career goals
+                            </li>
+                            <li>Time Management Matrix exercise</li>
+                            <li>
+                                Only 3,000 study hours out of 20,376 total
+                                hours
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Session 2 -->
+                <div class="session-card">
+                    <div class="session-header">
+                        <h3 class="session-title">
+                            CV Building & SMART Goals
+                        </h3>
+                        <div class="session-date">20th Feb. 2025</div>
+                    </div>
+                    <div class="session-content">
+                        <ul class="session-points">
+                            <li>Difference between CV and Resume</li>
+                            <li>SMART Goals framework</li>
+                            <li>
+                                Goal example: "Healthy puppy, 3 months old"
+                            </li>
+                            <li>CV structure and sections</li>
+                            <li>Analyzed sample CV formats</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Session 3 -->
+                <div class="session-card">
+                    <div class="session-header">
+                        <h3 class="session-title">
+                            SWOC Analysis & Self-Awareness
+                        </h3>
+                        <div class="session-date">27th Feb. 2025</div>
+                    </div>
+                    <div class="session-content">
+                        <ul class="session-points">
+                            <li>
+                                SWOC Analysis: Strengths, Weaknesses,
+                                Opportunities, Challenges
+                            </li>
+                            <li>
+                                Paper folding activity showing thought
+                                inconsistency
+                            </li>
+                            <li>
+                                Recognized strengths: Adaptable, Creative
+                                Thinker
+                            </li>
+                            <li>
+                                Identified weaknesses: Overthinking, Time
+                                Management
+                            </li>
+                            <li>Opportunities: Unique problem-solving</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Session 5 -->
+                <div class="session-card">
+                    <div class="session-header">
+                        <h3 class="session-title">Communication Skills</h3>
+                        <div class="session-date">6th March 2025</div>
+                    </div>
+                    <div class="session-content">
+                        <ul class="session-points">
+                            <li>
+                                Types of communication: Group Discussion,
+                                Extempore
+                            </li>
+                            <li>
+                                Debate activity: "USA is still a superpower"
+                            </li>
+                            <li>Relay communication exercise</li>
+                            <li>
+                                Importance of prioritization with multiple
+                                bosses
+                            </li>
+                            <li>Corporate communication strategies</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Session 6 -->
+                <div class="session-card">
+                    <div class="session-header">
+                        <h3 class="session-title">
+                            Role Play & Problem Solving
+                        </h3>
+                    </div>
+                    <div class="session-content">
+                        <ul class="session-points">
+                            <li>
+                                Role play scenario: Addressing body odor
+                                issue
+                            </li>
+                            <li>
+                                Developed solutions: Health concern approach
+                            </li>
+                            <li>
+                                Creating safe environment for communication
+                            </li>
+                            <li>Team collaboration in problem-solving</li>
+                            <li>
+                                Importance of tactful workplace
+                                communication
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Session 9 -->
+                <div class="session-card">
+                    <div class="session-header">
+                        <h3 class="session-title">Behavioral Interviews</h3>
+                    </div>
+                    <div class="session-content">
+                        <ul class="session-points">
+                            <li>
+                                STAR technique: Situation, Task, Action,
+                                Result
+                            </li>
+                            <li>Importance of careful listening</li>
+                            <li>
+                                Logical thinking for behavioral questions
+                            </li>
+                            <li>Using storytelling in interviews</li>
+                            <li>Framing answers with STAR in mind</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section" id="skills">
+        <div class="bd-grid">
+            <h2 class="section-title">Skills Developed</h2>
+            <p
+                style="
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto 2rem;
+                    line-height: 1.7;
+                "
+            >
+                Comprehensive skill set developed through the PESE course,
+                including both technical abilities and essential soft
+                skills.
+            </p>
+
+            <div class="skills-container">
+                <!-- Hard Skills -->
+                <div class="skill-category">
+                    <h3 class="skill-title">Technical Skills</h3>
+                    <div class="skill-item">
+                        Programming: Java, JavaScript, Python
+                    </div>
+                    <div class="skill-item">Web Development: HTML, CSS</div>
+                    <div class="skill-item">
+                        Database Management: MySQL, Oracle
+                    </div>
+                    <div class="skill-item">Mobile App Development</div>
+                    <div class="skill-item">Machine Learning Concepts</div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3 class="skill-title">Soft Skills</h3>
+                    <div class="skill-item">
+                        Adaptability to changing situations
+                    </div>
+                    <div class="skill-item">Creative problem solving</div>
+                    <div class="skill-item">
+                        Effective team collaboration
+                    </div>
+                    <div class="skill-item">
+                        Public speaking and presentation
+                    </div>
+                    <div class="skill-item">Time management strategies</div>
+                </div>
+
+                <!-- Strengths -->
+                <div class="skill-category">
+                    <h3 class="skill-title">Strengths</h3>
+                    <div class="skill-item">
+                        Creative thinking and innovation
+                    </div>
+                    <div class="skill-item">Team leadership potential</div>
+                    <div class="skill-item">Quick learning ability</div>
+                    <div class="skill-item">Problem-solving mindset</div>
+                    <div class="skill-item">Goal-oriented approach</div>
+                </div>
+
+                <!-- Development Areas -->
+                <div class="skill-category">
+                    <h3 class="skill-title">Development Areas</h3>
+                    <div class="skill-item">Consistency in work habits</div>
+                    <div class="skill-item">Advanced time management</div>
+                    <div class="skill-item">Reducing overthinking</div>
+                    <div class="skill-item">
+                        Handling multiple priorities
+                    </div>
+                    <div class="skill-item">
+                        Stress management techniques
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section section" id="videos">
+        <div class="bd-grid">
+            <h2 class="section-title">Interview Recordings</h2>
+            <p
+                style="
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto 2rem;
+                    line-height: 1.7;
+                    color: rgba(255, 255, 255, 0.9);
+                "
+            >
+                Practical application of interview techniques learned during
+                the PESE course, showcasing both sides of the interview
+                process.
+            </p>
+
+            <div class="video-container">
+                <!-- My Interview -->
+                <div class="video-card">
+                    <div class="video-header">
+                        <h3 class="video-title">My Interview Experience</h3>
+                        <p>As Interviewee</p>
+                    </div>
+                    <div class="video-player">
+                        <!-- Fixed video path -->
+                        <video controls width="100%" height="100%">
+                            <source src="assets/vid/Interview.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Kapil Interview -->
+                <div class="video-card">
+                    <div class="video-header">
+                        <h3 class="video-title">Interview with Kapil</h3>
+                        <p>As Interviewer</p>
+                    </div>
+                    <div class="video-player">
+                        <!-- Fixed video path -->
+                        <video controls width="100%" height="100%">
+                            <source src="assets/vid/Kapils-Interview.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reflection Section -->
+    <section class="reflection section" id="reflection">
+        <div class="bd-grid">
+            <h2 class="section-title">Personal Reflection</h2>
+
+            <div class="reflection-content">
+                <div class="quote">
+                    "The most valuable lesson was realizing that my goal to
+                    become a mobile app developer requires consistent daily
+                    action."
+                </div>
+
+                <div class="reflection-text">
+                    <p>
+                        Throughout the PESE course with Dr. Anubha Pundir,
+                        I've undergone significant personal and professional
+                        growth. The sessions on time management were
+                        particularly eye-opening, revealing that I had only
+                        dedicated 3,000 hours to studying out of more than
+                        20,000 total hours. This realization prompted me to
+                        implement daily task lists and structured schedules
+                        to better manage my time.
+                    </p>
+
+                    <p style="margin-top: 1.5rem;">
+                        The SMART goals framework transformed how I approach
+                        my career objectives. Instead of vague aspirations
+                        like "become a developer," I now have specific,
+                        measurable targets: "Master Android development with
+                        Java by completing two projects each month." This
+                        approach has already increased my productivity and
+                        focus.
+                    </p>
+
+                    <p style="margin-top: 1.5rem;">
+                        Participating in interview role-plays and
+                        communication exercises pushed me beyond my comfort
+                        zone. I learned that effective communication isn't
+                        just about speaking well, but also about listening
+                        carefully and responding thoughtfully. The STAR
+                        technique for behavioral interviews has become an
+                        invaluable tool in my job preparation toolkit.
+                    </p>
+
+                    <p style="margin-top: 1.5rem;">
+                        My key takeaway from the PESE course is embodied in
+                        Dr. Pundir's powerful question: "What have you done
+                        today to achieve your goal?" This question now
+                        guides my daily choices and priorities, ensuring I
+                        make consistent progress toward my career
+                        aspirations.
+                    </p>
+                </div>
+
+                <a href="#" class="button">Download Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__title">PESE Portfolio</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"
+                ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="#" class="footer__icon"
+                ><i class="bx bxl-github"></i
+            ></a>
+            <a href="#" class="footer__icon"
+                ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer__icon"
+                ><i class="bx bxl-twitter"></i
+            ></a>
+        </div>
+        <p class="footer__copy">
+            © 2025 PESE Portfolio | Practical For Employability Skill
+            Enhancement by Dr. Anubha Pundir
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
